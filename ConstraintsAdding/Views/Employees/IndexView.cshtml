@@ -1,0 +1,12 @@
+﻿
+@{
+    ViewBag.Title = "IndexView";
+}
+
+<h2>IndexView</h2>
+<h3> @TempData["value"]</h3>
+
+<br/>
+
+<button type="button" name="Click Me" onclick="location.href='@Url.Action("Thankyou","Employees")'">Click Me</button>
+
